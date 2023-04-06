@@ -4,4 +4,4 @@ project(Assignment4)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Assignment4
-        src/main.cpp)
+        src/main.cpp src/MergeSort.cpp src/MergeSort.h)
