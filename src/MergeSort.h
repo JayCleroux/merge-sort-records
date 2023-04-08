@@ -27,8 +27,6 @@ private:
 
     static bool is_integer(const std::string &str);
 
-    static bool is_float(const std::string &str);
 };
 
 #endif //ASSIGNMENT4_MERGESORT_H
-
