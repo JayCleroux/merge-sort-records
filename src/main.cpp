@@ -1,11 +1,11 @@
 #include "MergeSort.h"
 
 int main(int argc, char *argv[]) {
-
+    // Validate the command line arguments and sort the file by the field given
     if (argc < 3) {
         std::cout << "Usage: " << argv[0] << " <filename> -field=<fieldno>"
                   << std::endl;
-        return 0;
+        return 1;
     }
 
     std::string file_name = argv[1];
@@ -32,10 +32,3 @@ int main(int argc, char *argv[]) {
     ms.sort_file();
     return 0;
 }
-
-
-
-
-
-
-
