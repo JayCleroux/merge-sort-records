@@ -1,21 +1,19 @@
-employee_id	last_name	first_name	street_address	city	province	postal_code	phone_number	gender	age	department	union_member	hourly_rate
-1	Gawne	Emile	55 Morrow Crossing	Maniwaki	QC	J0V 1J0	676-479-7718	M	21	office	Y	26.25
-2	Rumbellow	Vivien	4288 Hudson Road	Saint-Augustin-de-Desmaures	QC	H4X 1W8	126-409-1655	F	53	office	N	25
-3	Cruden	Bar	102 Leroy Park	Gjoa Haven	NU	X0A 3H6	995-382-7428	M	36	factory	Y	27.50
-4	Dailly	Irvine	8 Delaware Street	Calgary	AB	T1W 2A8	402-936-1868	M	43	sales	N	22.25
-5	Cranage	Dolly	07874 Golden Leaf Place	Rimouski	QC	G5B 3A3	407-284-4744	F	52	factory	Y	29.50
-6	McCord	Noel	909 Gateway Pass	Kapuskasing	ON	K1N 8W6	474-369-5004	F	18	sales	Y	25.25
-7	Winn	Bobbie	1850 4th Point	Coquitlam	BC	V9X 1N5	874-961-6856	F	22	sales	N	28.50
-8	Swallow	Bird	3348 Grasskamp Court	Boisbriand	QC	J3G 3K8	885-752-9600	F	57	office	Y	27.50
-9	Rowcastle	Felizio	9890 Randy Crossing	Richmond	BC	V1V 1G5	205-382-3936	M	59	office	N	25.25
-10	Rathke	Willi	595 Summer Ridge Center	Saint-Lin-Laurentides	QC	V7P 1S5	210-258-4586	M	41	office	N	28.50
-11	Oblein	Delphine	28379 Graceland Plaza	Sarnia	ON	M5J 2T3	698-143-9972	F	36	sales	Y	20.50
-12	Ekkel	Alastair	833 Portage Drive	Devon	AB	T4C 1B4	839-507-5808	M	50	factory	N	27.50
-13	Almack	Ealasaid	970 Manley Plaza	Bassano	AB	T2P 0L7	998-557-3924	F	30	sales	N	24.25
-14	Calleja	Izak	7618 Morning Crossing	Pont-Rouge	QC	G1R 4P5	165-795-4001	M	49	sales	Y	26.50
-15	Sussans	Ruthe	35785 Carey Place	Saint-Rémi	QC	G2J 2T9	673-743-7430	F	49	factory	Y	24.50
-16	Snepp	Victor	29620 Rusk Center	Irricana	AB	T5T 2M2	923-176-7625	M	45	factory	N	29.25
-17	Frizzell	Hermina	0340 Village Green Center	Lac La Biche	AB	T2Z 0H8	701-725-0022	F	36	factory	Y	27.75
-18	Giraudo	Lianna	8411 Namekagon Terrace	Merritt	BC	V7P 1S5	532-794-4320	F	42	factory	Y	23.50
-19	Culross	Aurel	323 Carpenter Road	Dauphin	MB	R0C 2Z0	464-121-1336	F	40	office	N	26.25
-20	Stoute	Callean	71 Dwight Plaza	Pickering	ON	L3R 8W3	766-640-1591	M	49	factory	Y	24.75
+W6983012	McCord	Noel	909 Gateway Pass	Kapuskasing	ON	K1N-8W6	474-369-5004	F	18	5	sales	Y	25.25
+W0311234	Gawne	Emile	55 Morrow Crossing	Maniwaki	QC	J0V-1J0	676-479-7718	M	21	13	office	Y	26.25
+W0123422	Winn	Bobbie	1850 4th Point	Coquitlam	BC	V9X-1N5	874-961-6856	F	22	0	sales	N	28.50
+W0312313	Almack	Ealasaid	970 Manley Plaza	Bassano	AB	T2P-0L7	998-557-3924	F	30	5	sales	N	24.25
+W0211124	Oblein	Delphine	28379 Graceland Plaza	Sarnia	ON	M5J-2T3	698-143-9972	F	36	2	sales	Y	1
+W3012832	Cruden	Bar	102 Leroy Park	Gjoa Haven	NU	X0A-3H6	995-382-7428	M	36	7  	factory	Y	27.50
+W0270717	Frizzell	Hermina	0340 Village Green Center	Lac La Biche	AB	T2Z-0H8	701-725-0022	F	36	8	factory	Y	27.75
+W0345619	Culross	Aurel	323 Carpenter Road	Dauphin	MB	R0C-2Z0	464-121-1336	F	40	0	office	N	26.25
+W0210231	Rathke	Willi	595 Summer Ridge Center	Saint-Lin-Laurentides	QC	V7P-1S5	210-258-4586	M	41	6	office	N	28.50
+W0188312	Giraudo	Lianna	8411 Namekagon Terrace	Merritt	BC	V7P-1S5	532-794-4320	F	42	4	factory	Y	23.50
+W0164124	Snepp	Victor	29620 Rusk Center	Irricana	AB	T5T-2M2	923-176-7625	M	45	6	factory	N	29.25
+W0275715	Sussans	Ruthe	35785 Carey Place	Saint-Rémi	QC	G2J-2T9	673-743-7430	F	49	0	factory	Y	10
+W0201231	Stoute	Callean	71 Dwight Plaza	Pickering	ON	L3R-8W3	766-640-1591	M	49	3	factory	Y	24.75
+W0141234	Calleja	Izak	7618 Morning Crossing	Pont-Rouge	QC	G1R-4P5	165-795-4001	M	49	11	sales	Y	26.50
+W0121232	Ekkel	Alastair	833 Portage Drive	Devon	AB	T4C-1B4	839-507-5808	M	50	6	factory	N	27.50
+W1273295	Cranage	Dolly	07874 Golden Leaf Place	Rimouski	QC	G5B-3A3	407-284-4744	F	52	12	factory	Y	29.50
+W2302345	Rumbellow	Vivien	4288 Hudson Road	Saint-Augustin-de-Desmaures	QC	H4X-1W8	126-409-1655	F	53	2	office	N	100
+W0126382	Swallow	Bird	3348 Grasskamp Court	Boisbriand	QC	J3G-3K8	885-752-9600	F	57	0	office	Y	27.50
+W9724627	Rowcastle	Felizio	9890 Randy Crossing	Richmond	BC	V1V-1G5	205-382-3936	M	59	3	office	N	25.25

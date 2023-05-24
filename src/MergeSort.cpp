@@ -43,8 +43,8 @@ std::vector<std::string> MergeSort::split(const std::string &str, char delim) {
     // Create a stringstream object from the input string
     std::stringstream ss(str);
     std::string field;
-    // Loop through each field in the stringstream, extracting it based on the
-    // delimiter and adding it to the vector of fields
+    // Loop through each field in the stringstream
+    // using the delimiter to split and add it to the vector of fields
     while (getline(ss, field, delim)) {
         fields.push_back(field);
     }
@@ -53,7 +53,7 @@ std::vector<std::string> MergeSort::split(const std::string &str, char delim) {
 }
 // This method implements the merge sort algorithm to sort a vector of strings
 void MergeSort::merge_sort(std::vector<std::string> &data, int left, int right) {
-
+    
     if (left >= right) return;
     // Divide the subarray into two parts
     int mid = (left + right) / 2;
@@ -77,9 +77,13 @@ void MergeSort::merge_sort(std::vector<std::string> &data, int left, int right) 
         }
     }
     // Copy the  elements from the left subarray to the temporary vector
-    while (i <= mid) temp[k++] = data[i++];
+    while (i <= mid) {
+        temp[k++] = data[i++];
+    }
     // Copy the elements from the right subarray to the temporary vector
-    while (j <= right) temp[k++] = data[j++];
+    while (j <= right) {
+        temp[k++] = data[j++];
+    }
     // Copy the sorted elements from the temporary vector back to the original
     for (int p = 0; p < k; p++) {
         data[left + p] = temp[p];
@@ -115,4 +119,3 @@ bool MergeSort::is_integer(const std::string &str) {
     }
     return true;
 }
-
